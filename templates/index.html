@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Gerador de placeholder de imagens!</title>
+</head>
+
+<body>
+    <div class="row d-flex justify-content-center">
+        <h1>Gerador de placeholder de imagens!</h1>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+        <div class="jumbotron col-md-5">
+            <div class="container">
+                <p class="lead">
+                    As vezes tudo o que precisamos é de uma imagem temporária
+                    para colocar em um projeto ou design em quanto ainda não temos as imagens
+                    finais.
+                </p>
+                <hr class="my-4">
+                <p>
+                    Crie uma imagem do tamanho que desejar.
+                </p>
+                <p class="lead">
+                <div class="input-group mb-3">
+                    <input id="largura" type="text" class="form-control" placeholder="Largura da imagem"
+                        aria-label="largura" aria-describedby="largura">
+                    <div class="input-group-append">
+                        <span class="input-group-text">px</span>
+                    </div>
+                </div>
+
+                <div class="input-group mb-3">
+                    <input id="altura" type="text" class="form-control" placeholder="Altura da imagem"
+                        aria-label="altura" aria-describedby="altura">
+                    <div class="input-group-append">
+                        <span class="input-group-text">px</span>
+                    </div>
+                </div>
+                <button id="btnCriar" class="btn btn-primary">Criar Imagem</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        $("#btnCriar").click(function () {
+            var largura = $('#largura').val();
+            var altura = $('#altura').val();
+            url = `\\${largura}\\${altura}\\`;
+            window.location.href = url
+
+        });
+    </script>
+</body>
+
+</html>
