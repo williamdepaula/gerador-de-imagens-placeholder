@@ -1,7 +1,7 @@
 # Tutorial: Gerador de imagens placeholder
 
 ## Introdução
-Resolvi criar um pequeno projeto de para estudos de python e do microframework para aprendizagem pessoal e resolvi criar um tutorial para compartilha com mais pessoas.
+Criei um pequeno projeto para estudos de python e do microframework flask para aprendizagem pessoal, como forma de documentar acabei criando um tutorial passo a passo do que fiz, então resolvi compartilhar com mais pessoas.
 
 Vamos criar um simples projeto de geração de [placeholder(espaço reservado) de imagens](https://en.wikipedia.org/wiki/Wikipedia:Image_placeholders) utilizando o microframework [Flask](https://palletsprojects.com/p/flask/) para [Python](https://www.python.org/) como backend junto com a biblioteca [Pillow](https://pypi.org/project/Pillow/) para gerar as imagens. 
 Com isso quero mostrar como é fácil criar aplicações web incríveis utilizando python com flask.
