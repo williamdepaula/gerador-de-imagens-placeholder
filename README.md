@@ -8,6 +8,35 @@ Com isso quero mostrar como é fácil criar aplicações web incríveis utilizan
 
 ![Placeholder](Capa.gif)
 
+## Sumario
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [Tutorial: Gerador de imagens placeholder](#tutorial-gerador-de-imagens-placeholder)
+  - [Introdução](#introdução)
+  - [Sumario](#sumario)
+  - [Repositório](#repositório)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Preparando o ambiente](#preparando-o-ambiente)
+  - [Instalando dependências](#instalando-dependências)
+    - [Criando o requirements.txt](#criando-o-requirementstxt)
+  - [Hello World com Flask](#hello-world-com-flask)
+  - [Planejando nossa aplicação](#planejando-nossa-aplicação)
+    - [Lista de URLs](#lista-de-urls)
+    - [Pagina Inicial](#pagina-inicial)
+    - [Exibindo a index.html](#exibindo-a-indexhtml)
+  - [Gerando imagens quadradas](#gerando-imagens-quadradas)
+  - [Gerando imagens retangulares](#gerando-imagens-retangulares)
+  - [Conclusão](#conclusão)
+
+<!-- /code_chunk_output -->
+
+
+## Repositório 
+O projeto final está disponível no [meu github](https://github.com/williamdepaula/gerador-de-imagens-placeholder)
+
 ## Pré-requisitos
 * Python 3.6 ou superior
 * IDE (Ambiente de Desenvolvimento Integrado) de sua preferência, recomendo o [VSCode](https://code.visualstudio.com/)
